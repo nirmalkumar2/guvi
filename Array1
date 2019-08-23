@@ -1,0 +1,10 @@
+a=[]
+s=int(0)
+goal=int(input())
+for i in range(0,goal):
+  n=int(input())
+  a.append(n)
+for i in range(1,4):
+	s+=a[-i]
+for i in a:
+	print(i-s,end=' ')
